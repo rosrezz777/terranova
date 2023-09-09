@@ -1,0 +1,32 @@
+@import url(./../../styles/common.css);
+
+.header {
+    background-color: var(--secondColor);
+    padding-bottom: 10px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.header_row {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.header_nav ul{
+    display: flex;
+    column-gap: 57px;
+    justify-content: center;
+}
+
+.header_nav a{
+    text-decoration: none;
+    font-family: "miligram-medium";
+    color: var(--firstColor);
+}
+
+.header_nav a:hover {
+    color: var(--thirdColor);
+}

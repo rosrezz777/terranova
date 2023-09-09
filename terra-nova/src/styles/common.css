@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "cyrivendell";
+    src: url(./fonts/cyrivendell_web/cyrivendell-webfont.woff),
+         url(./fonts/cyrivendell_web/cyrivendell-webfont.woff2);
+}
+
+@font-face {
+    font-family: "suprecot";
+    src: url(./fonts/suprecot_web/Suprecot-Regular.woff),
+         url(./fonts/suprecot_web/Suprecot-Regular.woff2);
+}
+
+@font-face {
+    font-family: "miligram-medium";
+    src: url(./fonts/miligram_web/milligram-medium-trial-webfont.woff),
+         url(./fonts/miligram_web/milligram-medium-trial-webfont.woff2);
+}
+
+:root {
+    --firstColor: #231F20;
+    --secondColor: #B2B1B2;
+    --thirdColor: #ED1C24;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
