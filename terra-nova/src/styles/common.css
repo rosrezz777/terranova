@@ -16,6 +16,12 @@
          url(./fonts/miligram_web/milligram-medium-trial-webfont.woff2);
 }
 
+@font-face {
+    font-family: "miligram-extrabold";
+    src: url(./fonts/miligram_web/milligram-extrabold-trial-webfont.woff),
+         url(./fonts/miligram_web/milligram-extrabold-trial-webfont.woff2);
+}
+
 :root {
     --firstColor: #231F20;
     --secondColor: #B2B1B2;
