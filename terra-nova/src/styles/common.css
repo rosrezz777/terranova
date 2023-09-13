@@ -1,7 +1,7 @@
 @font-face {
     font-family: "cyrivendell";
-    src: url(./fonts/cyrivendell_web/cyrivendell-webfont.woff),
-         url(./fonts/cyrivendell_web/cyrivendell-webfont.woff2);
+    src: url(./fonts/cyrivendell_web/Cyrivendell.woff),
+         url(./fonts/cyrivendell_web/Cyrivendell.woff2);
 }
 
 @font-face {
@@ -20,6 +20,12 @@
     font-family: "miligram-extrabold";
     src: url(./fonts/miligram_web/milligram-extrabold-trial-webfont.woff),
          url(./fonts/miligram_web/milligram-extrabold-trial-webfont.woff2);
+}
+
+@font-face {
+    font-family: "miligram-bold";
+    src: url(./fonts/miligram_web/milligram-bold-trial-webfont.woff),
+         url(./fonts/miligram_web/milligram-bold-trial-webfont.woff2);
 }
 
 :root {

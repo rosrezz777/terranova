@@ -2,16 +2,14 @@
 
 
 .promo {
-    position: flex;
-    height: 523px;
+    position: relative;
+    height: 600px;
     background-color: var(--firstColor);
 }
 
 .promo_content {
-    padding-top: 145px;
-    padding-left: 16px;
-    
-
+    padding-top: 215px;
+    padding-left: 36px;
 }
 
 .promo_text {
@@ -26,9 +24,7 @@
 }
 
 .second_bar {
-    left: 0;
-    margin-top: 120px;
-    margin-left: 0%;
+    margin: 120px auto 0px;
     width: 800px;
     height: 150px;
     background-color: var(--thirdColor);
@@ -37,28 +33,32 @@
 }
 
 .second_bar_content {
-    padding-top: 34px;
     display: flex;
+    padding-top: 25px;
     justify-content: center;
     align-items: center;
-    column-gap: 88px;
+    column-gap: 80px;
 }
 
 .second_bar_content span {
     width: 2px;
-    height: 90px;
+    height: 100px;
     background-color: var(--firstColor);
 }
 
 .second_bar_content a {
+    font-family: "cyrivendell";
+    color: var(--firstColor);
+    font-size: 30px;
     text-decoration: none;
 }
 
 @media (max-width: 849px) {
 
     .promo_content {
-        padding-top: 320px;
-        margin-left: -10px;
+        padding-left: 0;
+        margin-left: -8px;
+        padding-top: 400px;
     }
 
     .promo_text {
@@ -70,9 +70,7 @@
     }
 
     .second_bar {
-        left: 0;
-        margin-top: 27px;
-        margin-left: 0%;
+        margin: 40px auto 0px;
         width: 250px;
         height: 150px;
         background-color: var(--thirdColor);
@@ -83,6 +81,10 @@
     .second_bar_content {
         flex-direction: column;
         row-gap: 18px;
+    }
+
+    .second_bar_content a {
+        font-size: 20px;
     }
 
     .second_bar_content span {

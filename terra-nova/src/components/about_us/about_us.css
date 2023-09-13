@@ -1,0 +1,43 @@
+@import url(./../../styles/common.css);
+
+.about_us {
+    position: relative;
+    height: 600px;
+    background-color: var(--secondColor);
+    z-index: -1;
+}
+
+.about_us_content {
+    display: flex;
+    padding-top: 158px;
+    padding-left: 36px;
+    justify-content: space-between;
+    column-gap: 36px;
+
+}
+
+.photo_slider {
+    width: 600px;
+    height: 320px;
+    background-color: var(--firstColor);
+    border-radius: 30px;
+}
+
+.text {
+    padding-top: 33px;
+}
+
+.headline {
+    width: 426px;
+    font-family: "miligram-bold";
+    font-size: 30px;
+    color: var(--firstColor);
+}
+
+.description {
+    padding-top: 31px;
+    width: 449px;
+    color: var(--firstColor);
+    font-family: "miligram-medium";
+    font-size: 18px;
+}
