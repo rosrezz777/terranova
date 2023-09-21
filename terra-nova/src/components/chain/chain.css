@@ -1,0 +1,57 @@
+@import url(./../../styles/common.css);
+
+.chain {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }
+  
+  .chain_content {
+    width: 100%;
+    display: flex;
+  }
+  
+  .chain_content div {
+    padding-right: 10px;
+    
+    font-family: "cyrivendell";
+    color: var(--firstColor);
+    font-size: 50px;
+
+    background: var(--secondColor);
+    white-space: nowrap;
+
+    animation: animate 30s linear infinite;
+    animation-delay: -30s;
+  }
+  
+  @keyframes animate {
+    0% {
+      transform: translateX(100%);
+    }
+
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .chain_content div:nth-child(2) {
+    animation: animate2 30s linear infinite;
+    animation-delay: -15s;
+  }
+  
+  @keyframes animate2 {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
+
+  @media (max-width: 420px) {
+    .chain_content div {
+      font-size: 20px;
+    }
+  }

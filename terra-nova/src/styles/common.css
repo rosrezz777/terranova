@@ -39,3 +39,10 @@
     margin: 0 auto;
     padding: 0 30px;
 }
+
+@media (max-width: 420px) {
+    .container {
+        margin: 0;
+        padding: 0 23px;
+    }
+}

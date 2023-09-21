@@ -1,7 +1,6 @@
 @import url(./../../styles/common.css);
 
 .about_us {
-    position: relative;
     height: 600px;
     background-color: var(--secondColor);
     z-index: -1;
@@ -10,17 +9,8 @@
 .about_us_content {
     display: flex;
     padding-top: 158px;
-    padding-left: 36px;
     justify-content: space-between;
-    column-gap: 36px;
 
-}
-
-.photo_slider {
-    width: 600px;
-    height: 320px;
-    background-color: var(--firstColor);
-    border-radius: 30px;
 }
 
 .text {
@@ -40,4 +30,37 @@
     color: var(--firstColor);
     font-family: "miligram-medium";
     font-size: 18px;
+}
+
+@media (max-width: 420px) {
+    .about_us {
+        height: 620px;
+    }
+
+    .about_us_content {
+        margin-right: 0px;
+        margin-left: 0px;
+        flex-direction: column;
+        row-gap: 20px;
+        padding-top: 139px;
+        padding-left: 0;
+    }
+    
+    .text {
+        padding-top: 0;
+    }
+
+    .headline {
+        font-size: 20px;
+        width: 285px;
+    }
+
+    .description {
+        font-size: 15px;
+        width: 290px;
+    }
+    
+    .slider {
+        padding-bottom: 40px;
+    }
 }
