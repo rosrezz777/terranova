@@ -1,0 +1,14 @@
+@import url(./../../styles/common.css);
+
+.coach {
+    height: 600px;
+    background-color: var(--secondColor);
+}
+
+.headline_coach {
+    padding-top: 30px;
+    
+    font-family: "miligram-bold";
+    font-size: 35px;
+    color: var(--firstColor);
+}

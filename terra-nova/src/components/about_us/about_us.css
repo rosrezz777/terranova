@@ -3,7 +3,6 @@
 .about_us {
     height: 600px;
     background-color: var(--secondColor);
-    z-index: -1;
 }
 
 .about_us_content {
