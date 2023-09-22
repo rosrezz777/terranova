@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0388871.css",
+    "main.js": "/static/js/main.80d4dd75.js",
+    "static/media/milligram-medium-trial-webfont.woff": "/static/media/milligram-medium-trial-webfont.a5af501f42dfe663c0e9.woff",
+    "static/media/milligram-bold-trial-webfont.woff": "/static/media/milligram-bold-trial-webfont.a328d1aaa37ded6ceaa1.woff",
+    "static/media/milligram-extrabold-trial-webfont.woff": "/static/media/milligram-extrabold-trial-webfont.630253104a7a531af3dd.woff",
+    "static/media/milligram-medium-trial-webfont.woff2": "/static/media/milligram-medium-trial-webfont.19f19b4c1924b3bf4db5.woff2",
+    "static/media/milligram-bold-trial-webfont.woff2": "/static/media/milligram-bold-trial-webfont.22a39a98b5f00015417a.woff2",
+    "static/media/milligram-extrabold-trial-webfont.woff2": "/static/media/milligram-extrabold-trial-webfont.ef0d2e34d3026b328b58.woff2",
+    "static/media/Cyrivendell.woff": "/static/media/Cyrivendell.13645b18ef20f83e11bd.woff",
+    "static/media/Cyrivendell.woff2": "/static/media/Cyrivendell.810b8762d5d3caf00455.woff2",
+    "static/media/Logo.svg": "/static/media/Logo.d8edead139b5553228a95d2b972c202b.svg",
+    "static/media/Suprecot-Regular.woff": "/static/media/Suprecot-Regular.16b2ecca17b7e873447c.woff",
+    "static/media/Suprecot-Regular.woff2": "/static/media/Suprecot-Regular.01f97c06c7212ba3f22d.woff2",
+    "static/media/Logo_mobile.svg": "/static/media/Logo_mobile.0f041ce64a91d24984d9ef8e5b401abb.svg",
+    "index.html": "/index.html",
+    "main.d0388871.css.map": "/static/css/main.d0388871.css.map",
+    "main.80d4dd75.js.map": "/static/js/main.80d4dd75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0388871.css",
+    "static/js/main.80d4dd75.js"
+  ]
+}
