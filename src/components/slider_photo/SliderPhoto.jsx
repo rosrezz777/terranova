@@ -26,7 +26,7 @@ const SliderPhoto = ({ slides }) => {
       {SliderData.map((slide, index) => {
         return (
             index === current && (
-              <img src={slide.image} alt='gym' className='image' />
+              <img src={slide.image} alt='gym' className='gym_photo' />
             )
         );
       })}
