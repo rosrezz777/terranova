@@ -16,13 +16,13 @@
     animation: padding linear 15s;
   }
 
-  .gradient-text {
+  /* .gradient-text {
     background: linear-gradient(to right, var(--thirdColor), var(--firstColor));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
    
-  }
+  } */
 
   @media (max-width: 420px) {
     .chain_content {

@@ -11,6 +11,12 @@
 }
 
 @font-face {
+    font-family: "miligram-light";
+    src: url(./fonts/miligram_web/milligram-light-trial-webfont.woff),
+         url(./fonts/miligram_web/milligram-light-trial-webfont.woff2);
+}
+
+@font-face {
     font-family: "miligram-medium";
     src: url(./fonts/miligram_web/milligram-medium-trial-webfont.woff),
          url(./fonts/miligram_web/milligram-medium-trial-webfont.woff2);

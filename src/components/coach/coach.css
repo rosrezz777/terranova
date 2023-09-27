@@ -7,8 +7,36 @@
 
 .headline_coach {
     padding-top: 30px;
+    padding-bottom: 36px;
     
     font-family: "miligram-bold";
     font-size: 35px;
     color: var(--firstColor);
 }
+
+.description_coach {
+    width: 1120px;
+    text-align: center;
+
+    font-family: "miligram-medium";
+    font-size: 18px;
+    color: var(--firstColor);
+
+}
+
+@media (max-width: 420px) {
+    .headline_coach {
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+
+    .description_coach {
+        padding-top: 84px;
+        width: 343px;
+
+        font-family: "miligram-light";
+        font-size: 14px;
+    }
+}
+
+

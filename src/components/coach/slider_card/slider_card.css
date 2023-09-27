@@ -1,0 +1,57 @@
+:root {
+    --swiper-navigation-size: none !important;
+    --swiper-theme-color: none !important;
+}
+
+.swiper-slide {
+    width: 300px !important;
+}
+
+.swiper-button-next {
+    position: static !important;
+    align-items: center;
+}
+
+.swiper-button-prev {
+    top: 30px;
+    position: static !important;
+}
+
+.slider_card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_card_btn {
+    top: 400px;
+    width: 140px;
+    height: 60px;
+
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+
+    border-radius: 9px;
+    z-index: +1;
+  }
+
+  .slider_card_btn span {
+    height: 29px;
+    width: 3px;
+    border-radius: 2px;
+    background-color: var(--firstColor);
+  }
+
+  .arrow_card {
+    font-size: 30px;
+    color: var(--firstColor);
+    cursor: pointer;
+  }
+
+  .arrow_card:hover {
+    color: var(--thirdColor);
+  }

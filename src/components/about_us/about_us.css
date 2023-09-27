@@ -3,11 +3,14 @@
 .about_us {
     height: 600px;
     background-color: var(--secondColor);
+    display: flex;
+    justify-content: space-between;
 }
 
 .about_us_content {
     display: flex;
     padding-top: 158px;
+    padding-left: 163px;
     justify-content: space-between;
 
 }
@@ -31,18 +34,23 @@
     font-size: 18px;
 }
 
+.slider {
+    padding-right: 189px;
+}
+
 @media (max-width: 420px) {
     .about_us {
+        padding-left: 0px;
+        padding-right: 0px;
         height: 620px;
+        flex-direction: column;
     }
 
     .about_us_content {
-        margin-right: 0px;
-        margin-left: 0px;
+        padding-left: 22px;
         flex-direction: column;
         row-gap: 20px;
-        padding-top: 139px;
-        padding-left: 0;
+        padding-top: 129px;
     }
     
     .text {
@@ -61,5 +69,6 @@
     
     .slider {
         padding-bottom: 40px;
+        padding-right: 0px;
     }
 }

@@ -1,4 +1,3 @@
-@import url(./../../styles/common.css);
 
 .slider {
     position: relative;
@@ -19,7 +18,7 @@
 
   .slider_btn {
     position: absolute;
-    top: 290px;
+    top: 430px;
     width: 140px;
     height: 60px;
 
@@ -44,6 +43,10 @@
     font-size: 40px;
     color: var(--secondColor);
     cursor: pointer;
+  }
+
+  .arrow:hover {
+    color: var(--thirdColor);
   }
   
   .slide {
