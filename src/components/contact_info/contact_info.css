@@ -1,0 +1,67 @@
+.contact_info {
+    position: relative;
+    background: var(--secondColor);
+}
+
+.contact_info_content {
+    padding: 86px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_contact_info {
+    padding-top: 30px;
+    max-width: 505px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 34px;
+    
+}
+
+.adress_contact_info {
+    font-family: "inter-bold";
+    font-size: 30px;
+    color: var(--firstColor);
+}
+
+.description_contact_info {
+    font-family: "inter-light";
+    font-size: 18px;
+
+}
+
+.phone_number_contact_info {
+    padding-top: 10px;
+    font-family: "inter-bold";
+    font-size: 25px;
+}
+
+.social_contact_info {
+    font-family: "inter-bold";
+    font-size: 25px;
+    color: var(--firstColor);
+    text-decoration: none;
+}
+
+@media (max-width: 420px) {
+
+    .contact_info_content {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .text_contact_info {
+        padding-top: 17px;
+        flex-direction: column;
+        row-gap: 14px;
+        padding-bottom: 26px;
+    }
+
+    .description_contact_info {
+        font-size: 15px;
+    }
+
+    .phone_number_contact_info {
+        padding-top: 30px;
+    }
+}

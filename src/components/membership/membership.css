@@ -1,0 +1,55 @@
+.membership {
+    position: relative;
+    height: 600px;
+    background: var(--firstColor);
+}
+
+.text_member {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 24px;
+}
+
+.headline_membership {
+    font-family: "miligram-bold";
+    font-size: 70px;
+    color: #fff;
+}
+
+.description_membership {
+    font-family: "miligram-medium";
+    font-size: 18px;
+    color: #fff;
+}
+
+.card_membership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 420px) {
+    .membership {
+        height: 1400px;
+    }
+
+    .text_member {
+        row-gap: 24px;
+    }
+
+    .headline_membership {
+        font-size: 30px;
+    }
+
+    .description_membership {
+        font-size: 15px;
+    }
+
+    .card_membership {
+        padding-top: 31px;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}

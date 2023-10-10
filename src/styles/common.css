@@ -34,6 +34,30 @@
          url(./fonts/miligram_web/milligram-bold-trial-webfont.woff2);
 }
 
+@font-face {
+    font-family: "miligram-regular";
+    src: url(./fonts/miligram_web/milligram-regular-trial-webfont.woff),
+         url(./fonts/miligram_web/milligram-regular-trial-webfont.woff2);
+}
+
+@font-face {
+    font-family: "inter-regular";
+    src: url(./fonts/inter_web/Inter-Regular.woff),
+         url(./fonts/inter_web/Inter-Regular.woff2);
+}
+
+@font-face {
+    font-family: "inter-light";
+    src: url(./fonts/inter_web/Inter-Light.woff),
+         url(./fonts/inter_web/Inter-Light.woff2);
+}
+
+@font-face {
+    font-family: "inter-bold";
+    src: url(./fonts/inter_web/Inter-Bold.woff),
+         url(./fonts/inter_web/Inter-Bold.woff2);
+}
+
 :root {
     --firstColor: #231F20;
     --secondColor: #B2B1B2;

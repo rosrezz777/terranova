@@ -3,6 +3,10 @@ import Promo from './components/promo/Promo';
 import AboutUs from './components/about_us/AboutUs';
 import Chain from './components/chain/Chain';
 import Coach from './components/coach/Coach';
+import Membershpip from './components/membership/Membership';
+import ContactUs from './components/contact_us/ContactUs';
+import ContactInfo from './components/contact_info/ContactInfo';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -12,7 +16,12 @@ function App() {
       <AboutUs/>
       <Chain content="Терра Нова"/>
       <Coach/>
-      <div style={{ height: '2000px' }}></div> {/* Это для демонстрации прокрутки */}
+      <Membershpip/>
+      <ContactUs/>
+      <Chain content="Терра Нова"/>
+      <ContactInfo/>
+      <Footer/>
+      {/* <div style={{ height: '2000px' }}></div> Это для демонстрации прокрутки */}
     </div>
   );
 }

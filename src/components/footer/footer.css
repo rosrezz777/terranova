@@ -1,0 +1,221 @@
+.footer {
+    background-color: var(--firstColor);
+    padding-bottom: 61px;
+}
+
+.row_footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+
+.logo_information_gym_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.container_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 200px;
+    height: 70px;
+
+    border-radius: 20px;
+    background-color: var(--secondColor);
+}
+
+.information_gym_desctop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    row-gap: 12px;
+
+    font-family: "inter-light";
+    color: #fff;
+    font-size: 10px;
+
+}
+
+.information_gym_desctop a {
+    color: #fff;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 85px;
+}
+
+.headline_content_footer {
+    padding-bottom: 4px;
+
+    font-family: "miligram-bold";
+    font-size: 20px;
+    color: #fff;
+}
+
+.navigation_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.navigation_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+
+
+    font-family: "miligram-regular";
+    font-size: 15px;
+}
+
+.navigation_content a {
+    color: #fff;
+}
+
+.phone_number_footer {
+    font-family: "inter-regular" !important;
+}
+
+.contact_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.contact_footer p {
+    font-family: "miligram-regular";
+    font-size: 15px;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+.contact_footer a {
+    font-family: "miligram-regular";
+    font-size: 15px;
+    color: #fff;
+
+    text-decoration: none;
+}
+
+
+
+.contact_footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.information_gym_mobile {
+    display: none;
+}
+
+.arrow_footer {
+    display: none;
+}
+
+
+
+
+
+
+@media (max-width: 420px) {
+    .footer {
+        padding-top: 20px;
+        padding-bottom: 17px;
+    }
+
+    .row_footer {
+        flex-direction: column;
+        row-gap: 58px;
+    }
+
+    .content_footer {
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_logo img {
+        width: 153px;
+        height: 50px;
+    }
+
+    .information_gym_desctop {
+        display: none;
+    }
+
+    .content_footer span {
+        width: 350px;
+        height: 2px;
+        background-color: #fff;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .headline_bar {
+        width: 340px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .arrow_footer{
+        display: flex;
+        transform: rotate(90deg);
+        font-size: 29px;
+        color: #fff;
+    }
+
+    .arrow_footer.clicked {
+        transform: rotate(270deg);
+    }
+
+    .navigation_content {
+        display: flex;
+        height: 0px;
+        opacity: 0;
+        transition:  
+        opacity 0.3s ease-in-out,
+        height 0.3s 0.3s ease-in-out;
+    }
+
+    .contact_content {
+        display: flex;
+        height: 0px;
+        opacity: 0;
+        transition:  
+        opacity 0.3s ease-in-out,
+        height 0.3s 0.3s ease-in-out;
+    }
+
+
+    .information_gym_mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+
+        row-gap: 12px;
+
+        font-family: "inter-light";
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .information_gym_mobile a {
+        color: #fff;
+    }
+
+    .animated {
+        opacity: 1;
+        transition:  
+        height 0.3s ease-in-out,
+        opacity 0.3s 0.3s ease-in-out;
+    }
+}

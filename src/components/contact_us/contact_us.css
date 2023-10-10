@@ -1,0 +1,26 @@
+.contact_us {
+    height: 600px;
+    background: var(--secondColor);
+}
+
+.headline_contact_us {
+    padding-top: 202px;
+
+    font-family: "miligram-bold";
+    font-size: 40px;
+    color: var(--firstColor);
+}
+
+@media (max-width: 420px) {
+    .contact_us {
+        height: 580px;
+    }
+
+    .headline_contact_us {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 202px;
+        font-size: 25px;
+    }
+}

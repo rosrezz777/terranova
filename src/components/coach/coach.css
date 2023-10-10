@@ -1,7 +1,7 @@
 @import url(./../../styles/common.css);
 
 .coach {
-    height: 600px;
+    height: 620px;
     background-color: var(--secondColor);
 }
 
@@ -32,7 +32,7 @@
 
     .description_coach {
         padding-top: 84px;
-        width: 343px;
+        width: 100%;
 
         font-family: "miligram-light";
         font-size: 14px;
