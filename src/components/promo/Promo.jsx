@@ -1,6 +1,9 @@
+import React, {useState} from 'react';
+import ModalHours from '../hours/ModalHours';
 import './promo.css'
 
 const Promo = () => {
+    const [isModalOpen, setIsModalOpen] = useState(false)
     return ( 
         <section className="promo">
             <div className="container">
@@ -11,8 +14,11 @@ const Promo = () => {
                     <div className="second_bar_content">
                         <a href="!#" className="member">Абонемент</a>
                         <span></span>
-                        <a href="!#" className="open_hours">Часы Работы</a>
+                        <a onClick={()=>{setIsModalOpen(!isModalOpen)}} className={`open_hours ${isModalOpen ? "active" : "inactive"}`}>Часы Работы</a>
                     </div>
+                </div>
+                <div onClick={()=>{setIsModalOpen(!isModalOpen)}} className={`modal_overlay ${isModalOpen ? "active" : "inactive"}`}>
+                    <ModalHours closeModal={() => setIsModalOpen(false)}/>
                 </div>
             </div>
         </section> 

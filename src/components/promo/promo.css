@@ -51,6 +51,29 @@
     color: var(--firstColor);
     font-size: 30px;
     text-decoration: none;
+
+    cursor: pointer;
+}
+
+.modal_overlay.active {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+
+    padding-top: 30px;
+
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.50);
+    z-index: 1000;
+}
+
+.modal_overlay.inactive {
+    display: none;
 }
 
 @media (max-width: 849px) {

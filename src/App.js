@@ -7,6 +7,7 @@ import Membershpip from './components/membership/Membership';
 import ContactUs from './components/contact_us/ContactUs';
 import ContactInfo from './components/contact_info/ContactInfo';
 import Footer from './components/footer/Footer';
+import ModalHours from './components/hours/ModalHours';
 
 function App() {
   return (
