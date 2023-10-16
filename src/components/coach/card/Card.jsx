@@ -1,8 +1,6 @@
 import React from "react";
 import './card.css'
 
-import photo1 from './img_staff/12.png'
-
 const Card = (props) => {
     return ( 
         <div key={props.id} className="card">
