@@ -14,7 +14,7 @@ const Promo = () => {
                     <div className="second_bar_content">
                         <a href="!#" className="member">Абонемент</a>
                         <span></span>
-                        <a onClick={()=>{setIsModalOpen(!isModalOpen)}} className={`open_hours ${isModalOpen ? "active" : "inactive"}`}>Часы Работы</a>
+                        <a href="!#" onClick={()=>{setIsModalOpen(!isModalOpen)}} className={`open_hours ${isModalOpen ? "active" : "inactive"}`}>Часы Работы</a>
                     </div>
                 </div>
                 <div onClick={()=>{setIsModalOpen(!isModalOpen)}} className={`modal_overlay ${isModalOpen ? "active" : "inactive"}`}>

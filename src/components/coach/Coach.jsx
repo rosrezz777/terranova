@@ -3,11 +3,6 @@ import './coach.css'
 import SliderCard from './slider_card/SliderCard'
 import SliderCardDesktop from "./slieder_card_desktop/SliderCardDescktop";
 
-
-
-
-import { photo1} from './card/img_staff/coach1.jpg'
-
 const Coach = () => {
     return ( 
         <section className="coach">

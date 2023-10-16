@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useRef} from "react"
 import logo from './../../img/icons/Logo.svg'
-import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
+import { IoIosArrowForward} from 'react-icons/io';
 import './footer.css'
 
 

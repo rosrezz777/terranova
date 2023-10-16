@@ -1,4 +1,4 @@
-import { SliderData } from './SliderData';
+
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
 import s from './slider_photo.module.css'
 
