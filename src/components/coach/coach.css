@@ -15,7 +15,7 @@
 }
 
 .description_coach {
-    width: 1120px;
+    max-width: 1120px;
     text-align: center;
 
     font-family: "miligram-medium";
@@ -38,5 +38,6 @@
         font-size: 14px;
     }
 }
+
 
 

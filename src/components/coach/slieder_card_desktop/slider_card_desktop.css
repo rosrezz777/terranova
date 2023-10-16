@@ -4,7 +4,11 @@
 }
 
 .swiper-slide {
-    width: 300px !important;
+    width: 300px;
+}
+
+.swiper-wrapper {
+    max-width: 1045px;
 }
 
 .swiper-button-next {
@@ -16,7 +20,8 @@
     position: static !important;
 }
 
-.slider_card {
+.slider_card_desktop {
+    padding-bottom: 36px;
     width: 100%;
     position: relative;
     display: flex;
@@ -24,34 +29,28 @@
     align-items: center;
 }
 
-.slider_card_btn {
-    top: 400px;
-    width: 140px;
-    height: 60px;
-
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
-
-    border-radius: 9px;
-    z-index: +1;
+  .arrow_card_left_desktop {
+    padding-left: 110px;
+    padding-right: 20px;
+    font-size: 50px;
+    color: var(--firstColor);
+    cursor: pointer;
   }
 
-  .slider_card_btn span {
-    height: 29px;
-    width: 3px;
-    border-radius: 2px;
-    background-color: var(--firstColor);
-  }
-
-  .arrow_card {
-    font-size: 30px;
+  .arrow_card_right_desktop {
+    padding-left: 20px;
+    padding-right: 110px;
+    font-size: 50px;
     color: var(--firstColor);
     cursor: pointer;
   }
 
   .arrow_card:hover {
     color: var(--thirdColor);
+  }
+
+  @media (max-width: 421px) {
+    .slider_card_desktop {
+      display: none;
+    }
   }

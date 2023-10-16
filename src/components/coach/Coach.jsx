@@ -1,6 +1,7 @@
 import React from "react";
 import './coach.css'
 import SliderCard from './slider_card/SliderCard'
+import SliderCardDesktop from "./slieder_card_desktop/SliderCardDescktop";
 
 
 
@@ -16,6 +17,7 @@ const Coach = () => {
                 </h2>
             </div>
             <SliderCard/>
+            <SliderCardDesktop/>
             <div className="container">
                 <p className="description_coach">
                     Поддержка и забота о наших посетителях - это большая честь и ответственность для нас, поэтому мы особенно требовательны при выборе персонала.

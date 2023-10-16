@@ -1,43 +1,36 @@
 import React from "react"
-import Card from '../card/Card';
-import s from './slider_card.module.css'
+import './slider_card_desktop.css'
+import Card from '../card/Card'
 import { CardData } from '../card/CardData.js'
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
-
 
 import { Swiper, SwiperSlide} from "swiper/react"
 import 'swiper/css'
 import 'swiper/css/effect-coverflow'
 import 'swiper/css/navigation'
-import {EffectCoverflow, Navigation} from "swiper/modules"
+import {Navigation} from "swiper/modules"
 
-const SliderCard = () => {
+const SliderCardDesktop = () => {
     return ( 
-        <div className={s.slider_card}>
+        <div className="slider_card_desktop">
+            <IoIosArrowBack className="swiper-button-prev arrow_card_left_desktop"/>
             <Swiper
                     slidesPerView={'auto'}
                     effect={'coverflow'}
                     grabCursor={true}
-                    centeredSlides={true}
-                    loop={true}
+                    spaceBetween={71}
                     navigation={{
                         nextEl:'.swiper-button-next',
                         prevEl:'.swiper-button-prev',
                         clickable: true
                     }}
-                    coverflowEffect={{
-                        rotate: 0,
-                        stretch: 0,
-                        depth: 100,
-                        modifier: 6
-                    }}
 
 
-                    modules={[EffectCoverflow ,Navigation]}
-                    className={s.swiper_coach}
+                    modules={[Navigation]}
+                    className="swiper_coach"
                 >
                     {CardData.map(CardData => (
-                        <SwiperSlide className={s.swiper_slide} key={CardData.id}>
+                        <SwiperSlide className="swiper_slide" key={CardData.id}>
                             <Card
                                 image={CardData.image}
                                 name={CardData.name}
@@ -45,16 +38,10 @@ const SliderCard = () => {
                             />
                         </SwiperSlide>
                     ))}
-                </Swiper>
-
-                <div className={s.slider_card_btn}>
-                    
-                    <IoIosArrowBack  className={`swiper-button-prev ${s.arrow_card}`}/>
-                    <span></span>
-                    <IoIosArrowForward className={`swiper-button-next ${s.arrow_card}`}/>
-                </div>
+            </Swiper>
+            <IoIosArrowForward className="swiper-button-next arrow_card_right_desktop"/>
         </div>
      );
 }
  
-export default SliderCard;
+export default SliderCardDesktop;

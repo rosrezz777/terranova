@@ -1,35 +1,42 @@
-import React, { useState } from 'react';
 import { SliderData } from './SliderData';
 import { IoIosArrowForward, IoIosArrowBack } from 'react-icons/io';
-import './slider_photo.css'
+import s from './slider_photo.module.css'
 
-const SliderPhoto = ({ slides }) => {
-  const [current, setCurrent] = useState(0);
-  const length = slides.length;
+import { Swiper, SwiperSlide} from "swiper/react"
+import 'swiper/css'
+import 'swiper/css/effect-coverflow'
+import 'swiper/css/navigation'
+import {Navigation} from "swiper/modules"
 
 
-  const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1);
-  };
-
-  const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1);
-  };
+const SliderPhoto = () => {
 
   return (
-    <section className='slider'>
-        <div className="slider_btn">
-            <IoIosArrowBack className='arrow' onClick={prevSlide} />
+    <section className={s.slider}>
+        <Swiper
+              navigation={{
+                  nextEl:'.swiper_button_next',
+                  prevEl:'.swiper_button_prev',
+                  clickable: true
+              }}
+              modules={[Navigation]}
+              className={s.swiper_about_us}
+        >
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+          <SwiperSlide className={s.slide}></SwiperSlide>
+        </Swiper>
+        <div className={s.slider_btn}>
+            <IoIosArrowBack className={`swiper_button_prev ${s.arrow}`}/>
             <span></span>
-            <IoIosArrowForward className='arrow' onClick={nextSlide} />
+            <IoIosArrowForward className={`swiper_button_next ${s.arrow}`}/>
         </div>
-      {SliderData.map((slide, index) => {
-        return (
-            index === current && (
-              <img key = {index} src={slide.image} alt='gym' className='gym_photo' />
-            )
-        );
-      })}
     </section>
   );
 };

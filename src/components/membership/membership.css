@@ -7,8 +7,9 @@
 .text_member {
     display: flex;
     flex-direction: column;
+    row-gap: 15px;
 
-    padding-top: 24px;
+    padding-top: 52px;
 }
 
 .headline_membership {
@@ -18,6 +19,7 @@
 }
 
 .description_membership {
+    max-width: 640px;
     font-family: "miligram-medium";
     font-size: 18px;
     color: #fff;
@@ -25,7 +27,8 @@
 
 .card_membership {
     display: flex;
-    justify-content: center;
+    padding-top: 79px;
+    justify-content: space-between;
     align-items: center;
 }
 

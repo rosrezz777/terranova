@@ -2,22 +2,15 @@
 
 .about_us {
     height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
     background-color: var(--secondColor);
-    display: flex;
-    justify-content: space-between;
-}
-
-.about_us_content {
-    display: flex;
-    padding-top: 158px;
-    padding-left: 163px;
-    justify-content: space-between;
 
 }
 
-.text {
-    padding-top: 33px;
-}
+
 
 .headline {
     width: 426px;
@@ -28,7 +21,7 @@
 
 .description {
     padding-top: 31px;
-    width: 449px;
+    max-width: 449px;
     color: var(--firstColor);
     font-family: "miligram-medium";
     font-size: 18px;
@@ -42,15 +35,15 @@
     .about_us {
         padding-left: 0px;
         padding-right: 0px;
-        height: 620px;
+        padding-bottom: 50px;
         flex-direction: column;
     }
 
     .about_us_content {
-        padding-left: 22px;
         flex-direction: column;
         row-gap: 20px;
         padding-top: 129px;
+        padding-bottom: 26px;
     }
     
     .text {
